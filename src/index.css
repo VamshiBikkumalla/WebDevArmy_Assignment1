@@ -1,0 +1,54 @@
+.booklist{
+  display: flex;
+  flex-wrap: wrap;
+ 
+  justify-content: center;
+ 
+  
+}
+
+.book{
+  width: 35%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px grey;
+  margin: 20px;
+  margin-left: 30px;
+  border-right: 3px solid blueviolet;
+  background: radial-gradient(white 30%,whitesmoke);
+  
+}
+
+.image{
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+ 
+ 
+}
+ .btn{
+   margin: 10px;
+   padding: 5px;
+   margin-right: 45px;
+    background-color:blueviolet;
+    color: #fff;
+    border-radius:10px;
+    border-color: white;
+ }
+ h2,h4{
+  margin: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+ }
+ .price1{
+  margin: 10px;
+  padding: 5px;
+  margin-left: 27px;
+  font-family: "Times New Roman", Times, serif;
+  
+ }
+ .price2{
+  margin: 10px;
+  padding: 5px;
+  
+  font-family: "Times New Roman", Times, serif;
+  
+ }
